@@ -1,0 +1,354 @@
+[
+  {
+    "question": "How does abstraction improve software design in computer programming?",
+    "answer": "Abstraction reduces complexity by hiding technical implementation details behind simpler APIs. It helps avoid writing low-level code, prevents code duplication, increases reusability, and enhances security by exposing only important details to the user."
+  },
+  {
+    "question": "I want to change the color of the active portion of a checkbox. Which CSS property should I use?",
+    "answer": "You can use the `accent-color` CSS property with a `<color>` value to set the accent color for elements like inputs."
+  },
+  {
+    "question": "What tools can I use to measure the accessibility (A11y) of my website?",
+    "answer": "You can use tools like Lighthouse and the Firefox Accessibility Inspector to measure accessibility. Ensuring compatibility with assistive technologies like screen readers and magnifiers is also essential."
+  },
+  {
+    "question": "How does the browser generate the information used by screen readers?",
+    "answer": "The browser converts the DOM tree into an accessibility tree. This tree contains objects with properties like name, description, role, and state, which platform-specific Accessibility APIs use to represent the UI to assistive technologies."
+  },
+  {
+    "question": "What properties are typically found in an accessibility tree object?",
+    "answer": "An accessibility tree object typically contains four properties: name (how to refer to the object), description (additional context), role (what kind of thing it is, e.g., button), and state (current condition, e.g., checked or collapsed)."
+  },
+  {
+    "question": "What is the precedence order for computing an element's accessible description?",
+    "answer": "The accessible description is computed in this order: `aria-describedby`, `aria-description`, language-specific features (like `<summary>` inside `<details>`), and finally the `title` attribute if not used for the accessible name. If none are defined, the description is empty."
+  },
+  {
+    "question": "How is an element's accessible name calculated if it has both visible content and an `aria-label`?",
+    "answer": "The accessible name calculation depends on the element, but `aria-label` generally overrides visible content. For example, if an element has `aria-label`, that value is used. If not, it may derive the name from visible content (like button text) or associated elements (like a label)."
+  },
+  {
+    "question": "Why is Adobe Flash considered obsolete?",
+    "answer": "Flash is obsolete because it required a plugin that reached end-of-life in 2021. It has been replaced by open web standards for multimedia and streaming."
+  },
+  {
+    "question": "What is the advance measure of the `ch` unit in CSS?",
+    "answer": "The advance measure of the `ch` unit is either the width or height of the character \"0\" in the given typeface, depending on whether the writing direction is horizontal or vertical."
+  },
+  {
+    "question": "How should I implement Ajax requests in modern web applications?",
+    "answer": "While Ajax was initially implemented using `XMLHttpRequest`, the modern approach is to use the `fetch()` API. It is more powerful, flexible, and integrates better with technologies like service workers."
+  },
+  {
+    "question": "What defines an alignment container in CSS Box Alignment?",
+    "answer": "The alignment container is the rectangle within which the alignment subject is aligned. It is usually the subject's containing block and assumes the writing mode of the box establishing that block."
+  },
+  {
+    "question": "In Flexbox, what is the alignment subject when using `justify-content`?",
+    "answer": "For `justify-content` in a flex container, the alignment subjects are the flex items in each flex line."
+  },
+  {
+    "question": "How do I represent a color with 50% opacity using hex notation?",
+    "answer": "You can add an alpha channel to the hex code. For example, `#8921F280`, where `80` is the hexadecimal equivalent of 50% opacity."
+  },
+  {
+    "question": "What is ALPN in the context of TLS?",
+    "answer": "Application-Layer Protocol Negotiation (ALPN) is a TLS extension that allows the application layer to negotiate which protocol (like HTTP/2 or HTTP/3) should be performed over the secure connection without additional round trips."
+  },
+  {
+    "question": "What is the difference between an argument and a parameter in a JavaScript function?",
+    "answer": "Parameters are the variables listed in the function definition, while arguments are the actual values (primitives or objects) passed to the function when it is invoked."
+  },
+  {
+    "question": "When should I use the `role=\"alert\"` attribute in ARIA?",
+    "answer": "You should use `role=\"alert\"` to notify users, particularly those using assistive technologies, of important and time-sensitive information."
+  },
+  {
+    "question": "What is the purpose of the `.arpa` TLD?",
+    "answer": "The `.arpa` TLD is used for Internet infrastructure purposes, specifically for reverse DNS lookups (finding a domain name from an IP address)."
+  },
+  {
+    "question": "How do I access the first item of an array in JavaScript?",
+    "answer": "You access the first item using the index zero, for example: `myArray[0]`."
+  },
+  {
+    "question": "Why is ASCII generally superseded by UTF-8 on the modern web?",
+    "answer": "ASCII uses only 7 bits to represent 128 characters, which limits it mostly to English. UTF-8 extends ASCII to support millions of code points (Unicode), covering almost all human languages."
+  },
+  {
+    "question": "How do I create a box with a 16:9 aspect ratio in CSS?",
+    "answer": "You can use the `aspect-ratio` property with the value `16 / 9`."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous communication?",
+    "answer": "Synchronous events happen at the same time or sequentially with dependencies. Asynchronous communication allows sending, receiving, and processing messages independently, without blocking the sender while waiting for a response."
+  },
+  {
+    "question": "How do I declare a boolean attribute in HTML?",
+    "answer": "A boolean attribute is set to `true` by its presence (e.g., `checked` or `checked=\"checked\"`). To set it to `false`, you must omit the attribute entirely."
+  },
+  {
+    "question": "What are the three factors commonly used in authentication?",
+    "answer": "Authentication factors are categorized as: something the user knows (password), something the user has (phone), and something the user is (biometrics like a thumbprint)."
+  },
+  {
+    "question": "How does Base64 encoding affect file size?",
+    "answer": "Base64 encoding typically increases the size of the data by roughly 33% compared to its original binary representation because it uses four 6-bit characters to represent every three 8-bit bytes."
+  },
+  {
+    "question": "Why does `btoa` throw an error with some Unicode characters?",
+    "answer": "`btoa` treats strings as binary data where each character represents a byte. If a character's code point exceeds `0xff` (255), it cannot fit in a byte, causing `btoa` to throw an error."
+  },
+  {
+    "question": "What does a 'widely available' Baseline badge indicate?",
+    "answer": "It indicates that a web platform feature has had a consistent history of support across all major Baseline browsers (Safari, Chrome, Edge, Firefox) for at least 2.5 years."
+  },
+  {
+    "question": "What is a BCP 47 language tag used for?",
+    "answer": "It allows a developer to precisely specify a human language, including its script and region (e.g., `en-US` or `ru-Cyrl-BY`), enabling internationalization support in HTML and APIs."
+  },
+  {
+    "question": "How can I prevent a page from being blocked by the bfcache?",
+    "answer": "You should avoid using incompatible code features like `unload` handlers. You can monitor blocking reasons using the `notRestoredReasons` API."
+  },
+  {
+    "question": "How do bitwise flags allow multiple settings to be stored in a single variable?",
+    "answer": "Bitwise flags use values representing distinct bit positions (powers of 2). By using a bitwise OR (`|`) operation, you can combine them into a single number where each bit state represents a specific flag."
+  },
+  {
+    "question": "What layout behavior defines block-level content?",
+    "answer": "Block-level content starts on a new line and occupies the entire available horizontal space of its parent, creating a 'block' equal to the height of its contents."
+  },
+  {
+    "question": "Why are block ciphers used with a mode of operation?",
+    "answer": "Block ciphers encrypt fixed-size blocks (e.g., 16 bytes). A mode of operation (like GCM or CBC) specifies how to securely encrypt messages that are longer than that fixed block size."
+  },
+  {
+    "question": "What is the difference between `var`, `let`, and `const` regarding bindings?",
+    "answer": "`var` and `let` create mutable bindings (can be re-assigned). `const` creates an immutable binding (cannot be re-assigned, though the value itself may be mutable if it's an object)."
+  },
+  {
+    "question": "What is the `<blink>` tag and why should I avoid it?",
+    "answer": "The `<blink>` tag is an obsolete HTML element that made text flash. It is no longer supported and causes accessibility issues for users with cognitive concerns or photosensitive epilepsy."
+  },
+  {
+    "question": "How does Brotli compression compare to Gzip?",
+    "answer": "Brotli generally provides better compression ratios than Gzip with comparable decompression speeds, but compression is slower. It is often preferred for static assets."
+  },
+  {
+    "question": "What is a browsing context?",
+    "answer": "A browsing context is the environment in which a browser displays a Document, such as a tab, window, or iframe. Each has its own session history and origin."
+  },
+  {
+    "question": "What is Bun?",
+    "answer": "Bun is a fast JavaScript runtime, bundler, and package manager designed as a drop-in replacement for Node.js, built on Apple's JavaScriptCore engine."
+  },
+  {
+    "question": "Which HTTP methods are cacheable by default?",
+    "answer": "`GET` and `HEAD` requests are cacheable. Responses to `POST` and `PATCH` can be cached if specific headers are set, but `PUT` and `DELETE` are not cacheable."
+  },
+  {
+    "question": "What is the Call Stack in JavaScript?",
+    "answer": "The Call Stack is a mechanism the interpreter uses to track the current location in a script that calls multiple functions. It operates as a stack data structure (Last In, First Out)."
+  },
+  {
+    "question": "What is a callback function?",
+    "answer": "A callback is a function passed as an argument to another function, which is then invoked ('called back') inside the outer function to complete an action."
+  },
+  {
+    "question": "What defines the canonical order of CSS properties?",
+    "answer": "Canonical order refers to the specific order in which values must be parsed or serialized, often relevant for shorthand properties like `background` (e.g., `background-size` must come after `background-position`)."
+  },
+  {
+    "question": "What is the Canvas API used for?",
+    "answer": "The Canvas API uses the `<canvas>` element to draw 2D and 3D graphics via JavaScript. It is a low-level, procedural model that updates a bitmap."
+  },
+  {
+    "question": "How does a certificate authority (CA) enable HTTPS?",
+    "answer": "A CA signs digital certificates and public keys, asserting that the entity (website) matches the public key. Browsers trust root certificates from CAs to verify website identity."
+  },
+  {
+    "question": "What is a challenge-response authentication protocol?",
+    "answer": "It is a protocol where one party presents a challenge (data) and the other party must provide a valid response to prove their identity, helping prevent replay attacks."
+  },
+  {
+    "question": "What is a cipher suite in TLS?",
+    "answer": "A cipher suite is a combination of algorithms used for key exchange, authentication, bulk encryption, and message authentication during a TLS connection."
+  },
+  {
+    "question": "What is the difference between a class and an object in OOP?",
+    "answer": "A class is a template definition of properties and methods. An object is a specific instance created from that class blueprint."
+  },
+  {
+    "question": "What is a closure?",
+    "answer": "A closure is a function combined with its lexical environment, allowing the function to access variables from its outer scope even after the outer function has returned."
+  },
+  {
+    "question": "What does Cumulative Layout Shift (CLS) measure?",
+    "answer": "CLS measures visual stability by quantifying unexpected layout shifts of page elements that are not the result of user interaction."
+  },
+  {
+    "question": "What is code splitting in web development?",
+    "answer": "Code splitting is splitting application code into separate bundles that are loaded on demand, reducing the initial load time by only fetching the code needed immediately."
+  },
+  {
+    "question": "What is a code point in Unicode?",
+    "answer": "A code point is a unique number assigned to a character. For example, the character \"A\" is assigned the code point U+0041."
+  },
+  {
+    "question": "What is the sRGB color space?",
+    "answer": "sRGB is the standard Red-Green-Blue color space used for the web, monitors, and printers. CSS colors like `rgb()`, `hsl()`, and hex codes map to this space."
+  },
+  {
+    "question": "What is the difference between `srgb` and `display-p3` color spaces?",
+    "answer": "`display-p3` is a wide-gamut color space that can represent more vibrant colors than `srgb`. It uses the DCI-P3 gamut with a D65 whitepoint."
+  },
+  {
+    "question": "What is compiling?",
+    "answer": "Compiling is the process of transforming source code written in a high-level language into machine code or bytecode that can be executed by a computer."
+  },
+  {
+    "question": "What is a composite operation in CSS animations?",
+    "answer": "Composite operation determines how an animation's effect value combines with the underlying property value. Options include `replace`, `add`, and `accumulate`."
+  },
+  {
+    "question": "How do content headers differ from representation headers?",
+    "answer": "Content headers (like `Content-Length`) describe the message body as it is transported, while representation headers describe the underlying resource (like `Content-Type` describing the media type)."
+  },
+  {
+    "question": "What is Continuous Integration (CI)?",
+    "answer": "CI is a practice where developers frequently merge code changes into a shared repository, triggering automated builds and tests to detect errors early."
+  },
+  {
+    "question": "What is control flow?",
+    "answer": "Control flow is the order in which statements are executed in a script, governed by structures like conditionals (`if...else`) and loops (`for`)."
+  },
+  {
+    "question": "How can I set a cookie using JavaScript?",
+    "answer": "You can set a cookie by assigning a string to `document.cookie`."
+  },
+  {
+    "question": "What is Copyleft?",
+    "answer": "Copyleft is a licensing scheme that requires derivative works to be distributed under the same license terms as the original work (e.g., GPL)."
+  },
+  {
+    "question": "Which HTTP headers are considered CORS-safelisted request headers?",
+    "answer": "The CORS-safelisted request headers are `Accept`, `Accept-Language`, `Content-Language`, `Content-Type` (specific values only), and `Range` (specific values only)."
+  },
+  {
+    "question": "What is Cross-Origin Resource Sharing (CORS)?",
+    "answer": "CORS is a mechanism using HTTP headers that allows a server to explicitly permit a browser to load resources from a different origin than the one serving the page."
+  },
+  {
+    "question": "What is a Cross-Site Request Forgery (CSRF) attack?",
+    "answer": "CSRF is an attack where a user is tricked into executing unwanted actions on a web application where they are authenticated, often by exploiting cookies."
+  },
+  {
+    "question": "What is the Cross Axis in Flexbox?",
+    "answer": "The Cross Axis runs perpendicular to the Main Axis. If `flex-direction` is `row`, the cross axis is vertical. Items are aligned on this axis using `align-items`."
+  },
+  {
+    "question": "What is Cryptanalysis?",
+    "answer": "Cryptanalysis is the study of analyzing and breaking cryptographic systems and codes to retrieve the plaintext without the key."
+  },
+  {
+    "question": "What is Content Security Policy (CSP)?",
+    "answer": "CSP is a security layer that helps detect and mitigate attacks like XSS and data injection by specifying which dynamic resources are allowed to load via the `Content-Security-Policy` header."
+  },
+  {
+    "question": "What is Client-Side Rendering (CSR)?",
+    "answer": "CSR is the practice of generating HTML content in the browser using JavaScript, rather than receiving pre-rendered HTML from the server."
+  },
+  {
+    "question": "What is a CSS descriptor?",
+    "answer": "A CSS descriptor defines the characteristics of an at-rule (like `@font-face`), consisting of a name and a value."
+  },
+  {
+    "question": "What is a CSS preprocessor?",
+    "answer": "A CSS preprocessor is a program that allows you to generate CSS from a unique syntax that includes features like variables, mixins, and nesting (e.g., Sass, LESS)."
+  },
+  {
+    "question": "What is the CSS Object Model (CSSOM)?",
+    "answer": "The CSSOM is a set of APIs that allows JavaScript to read and modify CSS style rules and stylesheets, similar to how the DOM manipulates HTML."
+  },
+  {
+    "question": "How is a CSS pixel defined?",
+    "answer": "A CSS pixel is an absolute unit of length (`px`) defined as 1/96th of 1 CSS inch. It may not correspond 1-to-1 with physical device pixels."
+  },
+  {
+    "question": "What is a data structure?",
+    "answer": "A data structure is a specific way of organizing and storing data so that it can be accessed and worked with efficiently."
+  },
+  {
+    "question": "What is the difference between `debounce` and `throttle`?",
+    "answer": "`Debounce` waits for a pause in invocations before running (consolidating noisy events into one), while `throttle` enforces a maximum number of executions over a specific time interval."
+  },
+  {
+    "question": "What is a deep copy?",
+    "answer": "A deep copy creates a new object and recursively copies all nested properties, ensuring no references are shared with the source object."
+  },
+  {
+    "question": "What is a Denial of Service (DoS) attack?",
+    "answer": "A DoS attack attempts to make a server or network resource unavailable to legitimate users, typically by flooding it with requests to exhaust resources."
+  },
+  {
+    "question": "What is Deno?",
+    "answer": "Deno is a secure runtime for JavaScript and TypeScript that restricts file and network access by default and supports TypeScript natively."
+  },
+  {
+    "question": "What is deserialization?",
+    "answer": "Deserialization is the process of translating a data format transferred over a network (like a JSON string) back into a readable object or data structure."
+  },
+  {
+    "question": "What is a digital signature?",
+    "answer": "A digital signature is a cryptographic mechanism used to verify the authenticity and integrity of a message or document using public-key cryptography."
+  },
+  {
+    "question": "What is DNS?",
+    "answer": "DNS (Domain Name System) is a decentralized naming system that translates human-readable domain names into numeric IP addresses."
+  },
+  {
+    "question": "What is the purpose of the `<!doctype html>` preamble?",
+    "answer": "It ensures the browser renders the document in standards mode rather than quirks mode, preventing layout issues."
+  },
+  {
+    "question": "What is the Document Object Model (DOM)?",
+    "answer": "The DOM is an API that represents a document as a tree of nodes (elements, text, etc.), allowing code to manipulate the content, structure, and style of a web page."
+  },
+  {
+    "question": "What is Domain Sharding?",
+    "answer": "Domain sharding is a legacy performance technique of splitting resources across multiple subdomains to overcome browser limits on concurrent connections per domain. It is largely obsolete with HTTP/2."
+  },
+  {
+    "question": "What is a Dominator in the context of garbage collection?",
+    "answer": "In a memory graph, node A dominates node B if every path from the root to B must pass through A. If A is garbage collected, B becomes unreachable and is also collected."
+  },
+  {
+    "question": "What is DTLS used for?",
+    "answer": "Datagram Transport Layer Security (DTLS) provides security for datagram-based protocols (like UDP). It is used in WebRTC for encrypting media streams."
+  },
+  {
+    "question": "What is dynamic typing in JavaScript?",
+    "answer": "Dynamic typing means variables are not bound to a specific data type; the interpreter assigns types at runtime based on the variable's current value."
+  },
+  {
+    "question": "What is ECMAScript?",
+    "answer": "ECMAScript is the standard specification for a scripting language, of which JavaScript is the most popular implementation."
+  },
+  {
+    "question": "What is the Effective Connection Type (ECT)?",
+    "answer": "ECT is a metric that categorizes the network's performance (e.g., `4g`, `3g`, `slow-2g`) based on observed round-trip times and downlink speeds, regardless of the actual technology (Wi-Fi vs Cellular)."
+  },
+  {
+    "question": "What is encapsulation in OOP?",
+    "answer": "Encapsulation is bundling data and functions into a single component (class) and restricting access to the internal state, exposing only a public interface."
+  },
+  {
+    "question": "What are enumerated attributes in HTML?",
+    "answer": "Enumerated attributes have a predefined list of valid values (e.g., `dir=\"ltr\"` or `dir=\"rtl\"`). Invalid values may map to a specific default state."
+  },
+  {
+    "question": "What is an escape character?",
+    "answer": "An escape character (like the backslash `\\`) invokes an alternative interpretation on the following characters, allowing the use of reserved characters in strings."
+  }
+]
