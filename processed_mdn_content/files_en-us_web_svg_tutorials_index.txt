@@ -1,0 +1,10 @@
+# SVG tutorials
+
+This page lists tutorials for SVG.
+
+{{SubPagesWithSummaries}}
+
+## See also
+
+- [SVG guides](/en-US/docs/Web/SVG/Guides)
+- [SVG reference](/en-US/docs/Web/SVG/Reference)

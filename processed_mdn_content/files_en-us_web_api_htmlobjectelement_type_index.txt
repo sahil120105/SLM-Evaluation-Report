@@ -1,0 +1,20 @@
+# HTMLObjectElement: type property
+
+{{APIRef("HTML DOM")}}
+
+The **`type`** property of the
+{{domxref("HTMLObjectElement")}} interface returns a string that
+reflects the [`type`](/en-US/docs/Web/HTML/Reference/Elements/object#type) HTML attribute, specifying the MIME type
+of the resource.
+
+## Value
+
+A string.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

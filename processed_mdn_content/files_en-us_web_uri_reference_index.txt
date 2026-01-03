@@ -1,0 +1,5 @@
+# URI reference
+
+This page lists reference documentation for URIs and the components that make up a URI.
+
+{{SubPagesWithSummaries}}

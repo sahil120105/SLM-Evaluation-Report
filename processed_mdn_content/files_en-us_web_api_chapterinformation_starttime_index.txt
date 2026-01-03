@@ -1,0 +1,26 @@
+# ChapterInformation: startTime property
+
+{{APIRef("Media Session API")}}{{SeeCompatTable}}
+
+The **`startTime`** read-only property of the
+{{domxref("ChapterInformation")}} interface returns a number representing the start time of the chapter in seconds.
+
+## Value
+
+A number.
+
+## Examples
+
+See the main {{domxref("ChapterInformation")}} page for an example.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("ChapterInformation")}}

@@ -1,0 +1,24 @@
+# HTMLTableElement: summary property
+
+{{APIRef("HTML DOM")}} {{Deprecated_Header}}
+
+The **`HTMLTableElement.summary`** property represents the
+table description.
+
+## Value
+
+A string.
+
+## Examples
+
+```js
+HTMLTableElement.summary = "Usage statistics";
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

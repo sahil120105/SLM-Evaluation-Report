@@ -1,0 +1,21 @@
+# RTCIceCandidatePairStats: packetsReceived property
+
+{{APIRef("WebRTC")}}{{SeeCompatTable}}
+
+The **`packetsReceived`** property of the {{domxref("RTCIceCandidatePairStats")}} dictionary indicates the total number of packets received on the candidate pair.
+
+### Value
+
+An integer value indicating the total number of packets received on the pair.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("RTCIceCandidatePairStats.bytesReceived")}}

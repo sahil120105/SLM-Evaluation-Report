@@ -1,0 +1,32 @@
+# SVGNumberList: clear() method
+
+{{APIRef("SVG")}}
+
+The **`clear()`** method of the {{domxref("SVGNumberList")}} interface clears all existing items from the list, with the result being an empty list.
+
+## Syntax
+
+```js-nolint
+clear()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+None ({{jsxref("undefined")}}).
+
+### Exceptions
+
+- `NoModificationAllowedError` {{domxref("DOMException")}}
+  - : Thrown if the {{domxref("SVGNumberList")}} corresponds to a read-only attribute or when the object itself is read-only.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

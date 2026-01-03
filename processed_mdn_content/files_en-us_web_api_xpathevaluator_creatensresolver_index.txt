@@ -1,0 +1,33 @@
+# XPathEvaluator: createNSResolver() method
+
+{{APIRef("DOM")}}{{deprecated_header}}
+
+The **`createNSResolver()`** method of the {{domxref("XPathEvaluator")}} interface used to create a custom `XPathNSResolver` object. It now returns the input as-is and is only kept for compatibility reasons.
+
+## Syntax
+
+```js-nolint
+createNSResolver(nodeResolver)
+```
+
+### Parameters
+
+- `nodeResolver`
+  - : A {{domxref("Node")}}.
+
+### Return value
+
+`nodeResolver` itself.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{DOMxRef("Document.createNSResolver()")}}
+- {{DOMxRef("XPathExpression")}}

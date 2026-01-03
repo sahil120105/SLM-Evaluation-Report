@@ -1,0 +1,18 @@
+# BluetoothRemoteGATTServer: device property
+
+{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+
+The **`BluetoothRemoteGATTServer.device`** read-only property
+returns a reference to the {{domxref("BluetoothDevice")}} running the server.
+
+## Value
+
+A reference to the {{domxref("BluetoothDevice")}}.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

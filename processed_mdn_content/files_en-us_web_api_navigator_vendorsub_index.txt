@@ -1,0 +1,18 @@
+# Navigator: vendorSub property
+
+{{APIRef("HTML DOM")}}
+
+The value of the **`Navigator.vendorSub`** property is always
+the empty string, in any browser.
+
+## Value
+
+- The empty string
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

@@ -1,0 +1,17 @@
+# RTCTransportStats: packetsSent property
+
+{{APIRef("WebRTC")}}{{SeeCompatTable}}
+
+The **`packetsSent`** property of the {{domxref("RTCTransportStats")}} dictionary indicates the total number of packets sent over this transport.
+
+## Value
+
+A positive integer indicating the number of packets sent on the transport.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

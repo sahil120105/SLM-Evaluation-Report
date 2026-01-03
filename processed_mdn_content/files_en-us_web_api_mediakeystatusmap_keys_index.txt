@@ -1,0 +1,29 @@
+# MediaKeyStatusMap: keys() method
+
+{{APIRef("Encrypted Media Extensions")}}
+
+The **`keys()`** method of the
+{{domxref("MediaKeyStatusMap")}} interface returns a new Iterator object, containing
+keys for each element in the status map, in insertion order.
+
+## Syntax
+
+```js-nolint
+keys()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+A new iterator.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

@@ -1,0 +1,20 @@
+# RTCInboundRtpStreamStats: totalSamplesReceived property
+
+{{APIRef("WebRTC")}}
+
+The **`totalSamplesReceived`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates the total number of samples received on this stream, including {{domxref("RTCInboundRtpStreamStats/concealedSamples","concealedSamples")}}.
+
+> [!NOTE]
+> The value is undefined for video streams.
+
+## Value
+
+An positive integer.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

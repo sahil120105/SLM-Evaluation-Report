@@ -1,0 +1,23 @@
+# EyeDropper: EyeDropper() constructor
+
+{{securecontext_header}}{{APIRef("EyeDropper API")}}{{SeeCompatTable}}
+
+The **`EyeDropper()`** constructor returns a new {{DOMxRef("EyeDropper")}} object.
+
+## Syntax
+
+```js-nolint
+new EyeDropper()
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- The {{DOMxRef("EyeDropper")}} interface it belongs to.

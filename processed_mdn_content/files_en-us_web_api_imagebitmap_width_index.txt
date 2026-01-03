@@ -1,0 +1,17 @@
+# ImageBitmap: width property
+
+{{APIRef("Canvas API")}}{{AvailableInWorkers}}
+
+The **`ImageBitmap.width`** read-only property returns the {{domxref("ImageBitmap")}} object's width in CSS pixels.
+
+## Value
+
+A number represents the {{domxref("ImageBitmap")}} object's width in CSS pixels.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

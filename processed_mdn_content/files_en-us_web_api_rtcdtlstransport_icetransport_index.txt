@@ -1,0 +1,17 @@
+# RTCDtlsTransport: iceTransport property
+
+{{APIRef("WebRTC")}}
+
+The **`iceTransport`** read-only property of the **{{DOMxRef("RTCDtlsTransport")}}** interface contains a reference to the underlying {{DOMxRef("RTCIceTransport")}}.
+
+## Value
+
+The underlying {{DOMxRef("RTCIceTransport")}} instance.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

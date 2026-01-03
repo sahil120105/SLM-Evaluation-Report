@@ -1,0 +1,18 @@
+# BluetoothRemoteGATTCharacteristic: service property
+
+{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+
+The **`BluetoothRemoteGATTCharacteristic.service`** read-only
+property returns the {{domxref("BluetoothRemoteGATTService")}} this characteristic belongs to.
+
+## Value
+
+An instance {{domxref("BluetoothRemoteGATTService")}}.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

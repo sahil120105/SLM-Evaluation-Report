@@ -1,0 +1,6 @@
+# Media guides
+
+This page lists guides for media on the web.
+They're intended to help you understand what kinds of things are possible using media.
+
+{{SubPagesWithSummaries}}

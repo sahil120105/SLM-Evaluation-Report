@@ -1,0 +1,21 @@
+# RTCIceCandidateStats: usernameFragment property
+
+{{APIRef("WebRTC")}}{{SeeCompatTable}}
+
+The **`usernameFragment`** property of the {{domxref("RTCIceCandidateStats")}} interface is a string that represents the {{Glossary("ICE")}} username fragment ("ice-ufrag").
+
+The fragment uniquely identifies a single ICE interaction session, and can be used to identify communications that are part of the same session even across ICE restarts.
+
+For more information see {{domxref("RTCIceCandidate.usernameFragment")}}.
+
+### Value
+
+A string representing the {{domxref("RTCIceCandidate.usernameFragment", "usernameFragment")}} of the corresponding {{domxref("RTCIceCandidate")}}.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

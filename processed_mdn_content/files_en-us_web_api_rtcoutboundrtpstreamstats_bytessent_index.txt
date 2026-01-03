@@ -1,0 +1,20 @@
+# RTCOutboundRtpStreamStats: bytesSent property
+
+{{APIRef("WebRTC")}}
+
+The **`bytesSent`** property of the {{domxref("RTCOutboundRtpStreamStats")}} dictionary indicates the total number of payload bytes sent on this stream ({{domxref("RTCDataChannel")}}).
+
+The value includes bytes in retransmitted payload bytes.
+It does not include headers or padding.
+
+## Value
+
+A positive integer.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

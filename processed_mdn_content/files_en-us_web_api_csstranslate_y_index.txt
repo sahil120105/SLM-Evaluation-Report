@@ -1,0 +1,23 @@
+# CSSTranslate: y property
+
+{{APIRef("CSS Typed OM")}}
+
+The **`y`** property of the
+{{domxref("CSSTranslate")}} interface gets and sets the ordinate or y-axis of the
+translating vector.
+
+## Value
+
+A {{cssxref('length-percentage')}}
+
+## Examples
+
+To Do
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

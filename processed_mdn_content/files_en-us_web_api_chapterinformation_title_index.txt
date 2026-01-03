@@ -1,0 +1,26 @@
+# ChapterInformation: title property
+
+{{APIRef("Media Session API")}}{{SeeCompatTable}}
+
+The **`title`** read-only property of the
+{{domxref("ChapterInformation")}} interface returns a string representing the title of the chapter.
+
+## Value
+
+A string.
+
+## Examples
+
+See the main {{domxref("ChapterInformation")}} page for an example.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("ChapterInformation")}}

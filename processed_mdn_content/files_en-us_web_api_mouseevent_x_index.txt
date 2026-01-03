@@ -1,0 +1,13 @@
+# MouseEvent: x property
+
+{{APIRef("UI Events")}}
+
+The **`MouseEvent.x`** property is an alias for the {{domxref("MouseEvent.clientX")}} property.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

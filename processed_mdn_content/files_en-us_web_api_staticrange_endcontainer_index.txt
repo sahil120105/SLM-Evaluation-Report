@@ -1,0 +1,17 @@
+# StaticRange: endContainer property
+
+{{APIRef("DOM WHATWG")}}
+
+The **`endContainer`** property of the {{domxref("StaticRange")}} interface returns the end {{domxref("Node")}} for the range.
+
+## Value
+
+The DOM {{domxref("Node")}} which contains the final character of the range.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

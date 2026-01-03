@@ -1,0 +1,23 @@
+# Window: document property
+
+{{APIRef}}
+
+**`window.document`** returns a reference to the [document](/en-US/docs/Web/API/Document) contained in the window.
+
+## Value
+
+A [document](/en-US/docs/Web/API/Document) object.
+
+## Examples
+
+```js
+console.log(window.document.title);
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

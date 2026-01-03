@@ -1,0 +1,19 @@
+# USBDevice: manufacturerName property
+
+{{APIRef("WebUSB API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+
+The **`manufacturerName`** read only property of the
+{{domxref("USBDevice")}} interface the of the organization that manufactured the USB
+device.
+
+## Value
+
+A string.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

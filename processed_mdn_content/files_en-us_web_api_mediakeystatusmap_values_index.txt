@@ -1,0 +1,29 @@
+# MediaKeyStatusMap: values() method
+
+{{APIRef("Encrypted Media Extensions")}}
+
+The **`values()`** method of the
+{{domxref("MediaKeyStatusMap")}} interface returns a new Iterator object, containing
+values for each element in the status map, in insertion order.
+
+## Syntax
+
+```js-nolint
+values()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+A new iterator.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

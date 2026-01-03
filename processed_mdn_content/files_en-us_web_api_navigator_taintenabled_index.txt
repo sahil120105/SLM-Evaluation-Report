@@ -1,0 +1,35 @@
+# Navigator: taintEnabled() method
+
+{{APIRef("HTML DOM")}}
+
+The **`Navigator.taintEnabled()`** method always returns
+`false`.
+
+Tainting was a security method used by JavaScript 1.2. It has long been removed; this
+method only stays for maintaining compatibility with very old scripts.
+
+## Syntax
+
+```js-nolint
+taintEnabled()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+Always returns `false`.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("Navigator")}}

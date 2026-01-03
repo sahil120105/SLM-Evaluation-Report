@@ -1,0 +1,17 @@
+# Window: trustedTypes property
+
+{{APIRef("Trusted Types API")}}
+
+The **`trustedTypes`** read-only property of the {{domxref("Window")}} interface returns the {{domxref("TrustedTypePolicyFactory")}} object associated with the global object, providing the entry point for using the {{domxref("Trusted Types API", "", "", "nocode")}}.
+
+## Value
+
+A {{domxref("TrustedTypePolicyFactory")}} object.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

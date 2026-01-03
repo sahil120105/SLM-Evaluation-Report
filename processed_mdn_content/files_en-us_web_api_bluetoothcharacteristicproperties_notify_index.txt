@@ -1,0 +1,20 @@
+# BluetoothCharacteristicProperties: notify property
+
+{{securecontext_header}}{{APIRef("Bluetooth API")}}{{SeeCompatTable}}
+
+The **`notify`** read-only property of the
+{{domxref("BluetoothCharacteristicProperties")}} interface returns a
+`boolean` that is `true` if notifications of the characteristic
+value without acknowledgement is permitted.
+
+## Value
+
+A boolean value.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

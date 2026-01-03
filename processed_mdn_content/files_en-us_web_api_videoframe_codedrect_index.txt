@@ -1,0 +1,25 @@
+# VideoFrame: codedRect property
+
+{{APIRef("Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+
+The **`codedRect`** property of the {{domxref("VideoFrame")}} interface returns a {{domxref("DOMRectReadOnly")}} with the width and height matching {{domxref("VideoFrame.codedWidth")}} and {{domxref("VideoFrame.codedHeight")}}.
+
+## Value
+
+A {{domxref("DOMRectReadOnly")}}.
+
+## Examples
+
+The following example prints the `codedRect` to the console.
+
+```js
+console.log(VideoFrame.codedRect);
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

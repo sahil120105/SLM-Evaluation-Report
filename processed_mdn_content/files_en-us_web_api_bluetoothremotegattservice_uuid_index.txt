@@ -1,0 +1,18 @@
+# BluetoothRemoteGATTService: uuid property
+
+{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+
+The **`BluetoothGATTService.uuid`** read-only property
+returns a string representing the UUID of this service.
+
+## Value
+
+A string.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

@@ -1,0 +1,27 @@
+# TextEncoder: TextEncoder() constructor
+
+{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+
+The **`TextEncoder()`** constructor returns a newly created {{DOMxRef("TextEncoder")}} object.
+
+## Syntax
+
+```js-nolint
+new TextEncoder()
+```
+
+### Parameters
+
+None.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- The {{DOMxRef("TextEncoder")}} interface it belongs to.

@@ -1,0 +1,17 @@
+# DOMStringList: length property
+
+{{APIRef("DOM")}}{{AvailableInWorkers}}
+
+The read-only **`length`** property indicates the number of strings in the {{domxref("DOMStringList")}}.
+
+## Value
+
+A {{jsxref("Number")}}.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

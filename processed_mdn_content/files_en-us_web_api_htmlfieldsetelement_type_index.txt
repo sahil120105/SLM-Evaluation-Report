@@ -1,0 +1,29 @@
+# HTMLFieldSetElement: type property
+
+{{ApiRef("HTML DOM")}}
+
+The **`type`** read-only property of the {{domxref("HTMLFieldSetElement")}} interface returns the string `"fieldset"`.
+
+## Value
+
+The string `"fieldset"`.
+
+## Example
+
+```js
+const fs = document.querySelector("fieldset");
+console.log(fs.type); // "fieldset"
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("HTMLFieldSetElement")}}
+- {{HTMLElement("fieldset")}}

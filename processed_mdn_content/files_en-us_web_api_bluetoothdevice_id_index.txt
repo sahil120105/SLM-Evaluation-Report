@@ -1,0 +1,18 @@
+# BluetoothDevice: id property
+
+{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+
+The **`BluetoothDevice.id`** read-only property returns a
+string that uniquely identifies a device.
+
+## Value
+
+A string.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

@@ -1,0 +1,9 @@
+# XPath reference
+
+The following pages contain reference documentation for XPath.
+
+{{SubpagesWithSummaries}}
+
+## See also
+
+- [XPath guides](/en-US/docs/Web/XML/XPath/Guides)

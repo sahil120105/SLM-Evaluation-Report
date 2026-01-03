@@ -1,0 +1,18 @@
+# BluetoothDevice: name property
+
+{{APIRef("Bluetooth API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+
+The **`BluetoothDevice.name`** read-only property returns a
+string that provides a human-readable name for the device.
+
+## Value
+
+A string.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

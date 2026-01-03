@@ -1,0 +1,20 @@
+# SVGImageElement: x property
+
+{{APIRef("SVG")}}
+
+The **`x`** read-only property of the
+{{domxref("SVGImageElement")}} interface returns an {{domxref("SVGAnimatedLength")}}
+corresponding to the {{SVGAttr("x")}} attribute of the given {{SVGElement("image")}}
+element.
+
+## Value
+
+An {{domxref("SVGAnimatedLength")}}.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

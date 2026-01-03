@@ -1,0 +1,9 @@
+# Web app manifest members reference
+
+This page lists references for [Web app manifest](/en-US/docs/Web/Progressive_web_apps/Manifest) members usage on the web.
+
+{{SubPagesWithSummaries}}
+
+## See also
+
+- [Web app manifests](/en-US/docs/Web/Progressive_web_apps/Manifest)

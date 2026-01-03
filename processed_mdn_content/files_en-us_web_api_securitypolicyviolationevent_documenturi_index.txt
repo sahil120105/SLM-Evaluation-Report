@@ -1,0 +1,29 @@
+# SecurityPolicyViolationEvent: documentURI property
+
+{{APIRef("Reporting API")}}{{AvailableInWorkers}}
+
+The **`documentURI`** read-only property of the {{domxref("SecurityPolicyViolationEvent")}} interface is a string representing the URI of the document or worker in which the [Content Security Policy (CSP)](/en-US/docs/Web/HTTP/Guides/CSP) violation occurred.
+
+## Value
+
+A string representing the URI of the document or worker in which the violation occurred.
+
+## Examples
+
+```js
+document.addEventListener("securitypolicyviolation", (e) => {
+  console.log(e.documentURI);
+});
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("CSPViolationReportBody.documentURL")}}

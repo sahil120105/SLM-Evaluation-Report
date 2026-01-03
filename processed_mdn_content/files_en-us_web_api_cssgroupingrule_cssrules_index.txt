@@ -1,0 +1,26 @@
+# CSSGroupingRule: cssRules property
+
+{{ APIRef("CSSOM") }}
+
+The **`cssRules`** property of the
+{{domxref("CSSGroupingRule")}} interface returns a {{domxref("CSSRuleList")}} containing
+a collection of {{domxref("CSSRule")}} objects.
+
+## Value
+
+a {{domxref("CSSRuleList")}}.
+
+## Examples
+
+```js
+let myRules = document.styleSheets[0].cssRules;
+console.log(myRules);
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

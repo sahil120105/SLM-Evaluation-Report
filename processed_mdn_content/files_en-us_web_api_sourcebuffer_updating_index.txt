@@ -1,0 +1,29 @@
+# SourceBuffer: updating property
+
+{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
+
+The **`updating`** read-only property of the
+{{domxref("SourceBuffer")}} interface indicates whether the `SourceBuffer` is
+currently being updated — i.e., whether an {{domxref("SourceBuffer.appendBuffer()")}} or {{domxref("SourceBuffer.remove()")}}
+operation is currently in progress.
+
+## Value
+
+A boolean value.
+
+## Examples
+
+TBD
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("MediaSource")}}
+- {{domxref("SourceBufferList")}}

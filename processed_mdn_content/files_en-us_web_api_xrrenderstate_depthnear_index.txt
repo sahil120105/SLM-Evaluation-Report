@@ -1,0 +1,19 @@
+# XRRenderState: depthNear property
+
+{{APIRef("WebXR Device API")}}{{SeeCompatTable}}{{SecureContext_Header}}
+
+The **`depthNear`** read-only property of the
+{{domxref("XRRenderState")}} interface returns the distance in meters of the near clip
+plane from the viewer.
+
+## Value
+
+A {{jsxref("Number")}}.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

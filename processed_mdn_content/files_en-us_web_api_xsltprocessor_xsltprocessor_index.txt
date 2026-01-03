@@ -1,0 +1,27 @@
+# XSLTProcessor: XSLTProcessor() constructor
+
+{{APIRef("DOM")}}
+
+The **`XSLTProcessor()`** constructor creates a new {{domxref("XSLTProcessor")}} object instance.
+
+## Syntax
+
+```js-nolint
+new XSLTProcessor()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+A new {{domxref("XSLTProcessor")}} object instance.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

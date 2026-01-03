@@ -1,0 +1,17 @@
+# SVGComponentTransferFunctionElement: slope property
+
+{{APIRef("SVG")}}
+
+The **`slope`** read-only property of the {{domxref("SVGComponentTransferFunctionElement")}} interface reflects the {{SVGAttr("slope")}} attribute of the given element.
+
+## Value
+
+An {{domxref("SVGAnimatedNumber")}} object.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

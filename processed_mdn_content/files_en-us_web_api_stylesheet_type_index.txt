@@ -1,0 +1,24 @@
+# StyleSheet: type property
+
+{{APIRef("CSSOM")}}
+
+The **`type`** property of the {{domxref("StyleSheet")}}
+interface specifies the style sheet language for the given style sheet.
+
+## Value
+
+A string.
+
+## Examples
+
+```js
+myStyleSheet.type = "text/css";
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

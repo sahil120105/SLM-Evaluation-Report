@@ -1,0 +1,26 @@
+# ImageTrackList: selectedIndex property
+
+{{APIRef("WebCodecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
+
+The **`selectedIndex`** property of the {{domxref("ImageTrackList")}} interface returns the `index` of the selected track.
+
+## Value
+
+An integer.
+
+## Examples
+
+The following example prints the value of `selectedIndex` to the console.
+
+```js
+let tracks = imageDecoder.tracks;
+console.log(tracks.selectedIndex);
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

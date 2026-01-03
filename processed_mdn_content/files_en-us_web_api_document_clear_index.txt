@@ -1,0 +1,27 @@
+# Document: clear() method
+
+{{APIRef("DOM")}}{{Deprecated_Header}}
+
+The **`Document.clear()`** method does nothing, but doesn't raise any error.
+
+## Syntax
+
+```js-nolint
+clear()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+None ({{jsxref("undefined")}}).
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

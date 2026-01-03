@@ -1,0 +1,17 @@
+# RTCTransportStats: selectedCandidatePairChanges property
+
+{{APIRef("WebRTC")}}
+
+The **`selectedCandidatePairChanges`** property of the {{domxref("RTCTransportStats")}} dictionary indicates the total number of times that the selected candidate pair of this transport has changed.
+
+## Value
+
+A positive integer that is initially zero and increases whenever a candidate pair is selected or lost.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

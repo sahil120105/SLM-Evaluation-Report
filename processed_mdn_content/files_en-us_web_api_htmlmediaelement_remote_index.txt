@@ -1,0 +1,28 @@
+# HTMLMediaElement: remote property
+
+{{APIRef("Remote Playback API")}}
+
+The **`remote`** read-only property of the {{domxref("HTMLMediaElement")}} interface returns the {{domxref("RemotePlayback")}} object associated with the media element. The `RemotePlayback` object allow the control of remote devices playing the media.
+
+## Value
+
+A {{domxref("RemotePlayback")}} object associated with the media element.
+
+## Example
+
+```js
+const el = document.createElement("audio");
+const remotePlayback = el.remote;
+
+remotePlayback.watchAvailability((availability) => {
+  // Do something when the availability changes
+});
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

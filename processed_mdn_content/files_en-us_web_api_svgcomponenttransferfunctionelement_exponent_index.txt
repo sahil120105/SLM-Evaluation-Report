@@ -1,0 +1,17 @@
+# SVGComponentTransferFunctionElement: exponent property
+
+{{APIRef("SVG")}}
+
+The **`exponent`** read-only property of the {{domxref("SVGComponentTransferFunctionElement")}} interface reflects the {{SVGAttr("exponent")}} attribute of the given element.
+
+## Value
+
+An {{domxref("SVGAnimatedNumber")}} object.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

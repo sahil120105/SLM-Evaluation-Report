@@ -1,0 +1,26 @@
+# TextEncoderStream: readable property
+
+{{APIRef("Encoding API")}}{{AvailableInWorkers}}
+
+The **`readable`** read-only property of the {{domxref("TextEncoderStream")}} interface returns a {{domxref("ReadableStream")}}.
+
+## Value
+
+A {{domxref("ReadableStream")}}.
+
+## Examples
+
+The following example demonstrates how to return a `ReadableStream` from a `TextEncoderStream` object.
+
+```js
+const stream = new TextEncoderStream();
+console.log(stream.readable); // A ReadableStream
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

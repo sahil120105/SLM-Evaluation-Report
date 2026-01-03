@@ -1,0 +1,24 @@
+# RTCInboundRtpStreamStats: packetsReceived property
+
+{{APIRef("WebRTC")}}
+
+The **`packetsReceived`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary returns the total number of {{Glossary("RTP")}} packets received from the [synchronization source (SSRC)](/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc) of this stream, including retransmissions.
+
+## Value
+
+A positive integer value.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("RTCInboundRtpStreamStats.ssrc")}}
+- {{domxref("RTCRemoteInboundRtpStreamStats.packetsReceived", "packetsReceived")}}
+- {{domxref("RTCInboundRtpStreamStats.packetsLost", "packetsLost")}}
+- {{domxref("RTCInboundRtpStreamStats.packetsLost", "packetsDiscarded")}}

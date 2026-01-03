@@ -1,0 +1,29 @@
+# MediaSource: clearLiveSeekableRange() method
+
+{{APIRef("Media Source Extensions")}}{{AvailableInWorkers("window_and_dedicated")}}
+
+The **`clearLiveSeekableRange()`** method of the
+{{domxref("MediaSource")}} interface clears a seekable range previously set with a call
+to {{domxref("MediaSource.setLiveSeekableRange()","setLiveSeekableRange()")}}.
+
+## Syntax
+
+```js-nolint
+clearLiveSeekableRange()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+None ({{jsxref("undefined")}}).
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

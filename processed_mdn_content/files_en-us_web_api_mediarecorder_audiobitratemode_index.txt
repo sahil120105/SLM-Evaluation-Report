@@ -1,0 +1,22 @@
+# MediaRecorder: audioBitrateMode property
+
+{{APIRef("MediaStream Recording")}}{{SeeCompatTable}}
+
+The **`audioBitrateMode`** read-only property of the {{domxref("MediaRecorder")}} interface returns the bitrate mode used to encode audio tracks.
+
+## Value
+
+One of the following:
+
+- `constant`
+  - : The {{domxref("MediaRecorder")}} encodes at this constant bitrate.
+- `variable`
+  - : The {{domxref("MediaRecorder")}} encodes using this variable bitrate, allowing more space to be used for complex signals and less space for less complex signals.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

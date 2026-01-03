@@ -1,0 +1,22 @@
+# SpeechGrammar: src property
+
+{{APIRef("Web Speech API")}}{{deprecated_header}}
+
+The **`src`** property of the {{domxref("SpeechGrammar")}} interface
+is used to get or set a string that contains the grammar within the `SpeechGrammar` object.
+
+## Value
+
+A string representing the grammar.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- [Web Speech API](/en-US/docs/Web/API/Web_Speech_API)

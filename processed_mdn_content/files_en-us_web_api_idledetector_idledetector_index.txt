@@ -1,0 +1,25 @@
+# IdleDetector: IdleDetector() constructor
+
+{{securecontext_header}}{{APIRef("Idle Detection API")}}{{SeeCompatTable}}{{AvailableInWorkers("window_and_dedicated")}}
+
+The **`IdleDetector()`** constructor creates a new {{domxref("IdleDetector")}}
+object which provides events indicating when the user is no longer interacting
+with their device or the screen has locked.
+
+## Syntax
+
+```js-nolint
+new IdleDetector()
+```
+
+### Parameters
+
+None.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

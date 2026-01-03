@@ -1,0 +1,17 @@
+# ServiceWorkerGlobalScope: cookieStore property
+
+{{APIRef("Cookie Store API")}}{{SecureContext_Header}}{{AvailableInWorkers("service")}}
+
+The **`cookieStore`** read-only property of the {{domxref("ServiceWorkerGlobalScope")}} interface returns a reference to the {{domxref("CookieStore")}} object associated with this service worker.
+
+## Value
+
+A {{domxref("CookieStore")}} object instance.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

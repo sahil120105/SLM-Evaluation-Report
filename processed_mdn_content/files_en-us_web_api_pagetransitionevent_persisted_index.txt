@@ -1,0 +1,17 @@
+# PageTransitionEvent: persisted property
+
+{{APIRef("HTML DOM")}}
+
+The **`persisted`** read-only property indicates if a webpage is loading from a cache.
+
+## Value
+
+A boolean value.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

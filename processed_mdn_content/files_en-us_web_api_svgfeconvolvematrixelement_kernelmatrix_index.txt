@@ -1,0 +1,21 @@
+# SVGFEConvolveMatrixElement: kernelMatrix property
+
+{{APIRef("SVG")}}
+
+The **`kernelMatrix`** read-only property of the {{domxref("SVGFEConvolveMatrixElement")}} interface reflects the {{SVGAttr("kernelMatrix")}} attribute of the given {{SVGElement("feConvolveMatrix")}} element.
+
+## Value
+
+An {{domxref("SVGAnimatedNumberList")}} object.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("SVGAnimatedNumberList")}}

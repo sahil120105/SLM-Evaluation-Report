@@ -1,0 +1,5 @@
+# How to
+
+How-to guides explain in detail how to accomplish a specific task related to PWAs.
+
+{{ListSubpages}}

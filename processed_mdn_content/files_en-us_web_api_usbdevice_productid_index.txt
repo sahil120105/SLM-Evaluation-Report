@@ -1,0 +1,19 @@
+# USBDevice: productId property
+
+{{APIRef("WebUSB API")}}{{SeeCompatTable}}{{SecureContext_Header}}{{AvailableInWorkers}}
+
+The **`productId`** read only property of the
+{{domxref("USBDevice")}} interface the manufacturer-defined code that identifies a USB
+device.
+
+## Value
+
+The manufacturer-defined code that identifies a USB device.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

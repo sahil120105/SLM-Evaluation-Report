@@ -1,0 +1,11 @@
+# Test your skills: Accessibility
+
+This page lists Accessibility tests you can try so you can verify if you've understood the content in this module.
+
+## Test your Accessibility skills by topic
+
+{{SubpagesWithSummaries}}
+
+## See also
+
+- [Accessibility on the web](/en-US/docs/Learn_web_development/Core/Accessibility)

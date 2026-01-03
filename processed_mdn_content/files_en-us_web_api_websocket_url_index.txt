@@ -1,0 +1,18 @@
+# WebSocket: url property
+
+{{APIRef("WebSockets API")}}{{AvailableInWorkers}}
+
+The **`WebSocket.url`** read-only property returns the absolute
+URL of the {{domxref("WebSocket")}} as resolved by the constructor.
+
+## Value
+
+A string.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

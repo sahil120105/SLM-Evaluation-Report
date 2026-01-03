@@ -1,0 +1,31 @@
+# Navigator: userAgentData property
+
+{{securecontext_header}}{{APIRef("User-Agent Client Hints API")}}{{SeeCompatTable}}
+
+The **`userAgentData`** read-only property of the {{domxref("Navigator")}} interface returns a {{domxref("NavigatorUAData")}} object
+which can be used to access the {{domxref("User-Agent Client Hints API", "", "", "nocode")}}.
+
+## Value
+
+A {{domxref("NavigatorUAData")}} object.
+
+## Examples
+
+The following example prints the value of {{domxref("NavigatorUAData.brands")}} to the console.
+
+```js
+console.log(navigator.userAgentData.brands);
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- [HTTP Client hints](/en-US/docs/Web/HTTP/Guides/Client_hints)
+- [Improving user privacy and developer experience with User-Agent Client Hints](https://developer.chrome.com/docs/privacy-security/user-agent-client-hints)

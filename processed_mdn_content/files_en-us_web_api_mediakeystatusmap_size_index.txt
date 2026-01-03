@@ -1,0 +1,19 @@
+# MediaKeyStatusMap: size property
+
+{{APIRef("Encrypted Media Extensions")}}{{SecureContext_Header}}
+
+The **`size`** read-only property of
+the {{domxref("MediaKeyStatusMap")}} interface returns the number of key/value paIrs
+in the status map.
+
+## Value
+
+A long integer.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

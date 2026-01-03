@@ -1,0 +1,19 @@
+# PaymentResponse: requestId property
+
+{{securecontext_header}}{{APIRef("Payment Request API")}}
+
+The **`requestId`** read-only property of the
+{{domxref("PaymentResponse")}} interface returns the free-form identifier supplied by
+the `PaymentResponse()` constructor by details.id.
+
+## Value
+
+A string.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

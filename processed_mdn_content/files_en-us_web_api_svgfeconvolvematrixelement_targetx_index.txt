@@ -1,0 +1,21 @@
+# SVGFEConvolveMatrixElement: targetX property
+
+{{APIRef("SVG")}}
+
+The **`targetX`** read-only property of the {{domxref("SVGFEConvolveMatrixElement")}} interface reflects the {{SVGAttr("targetX")}} attribute of the given {{SVGElement("feConvolveMatrix")}} element.
+
+## Value
+
+An {{domxref("SVGAnimatedInteger")}} object.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- {{domxref("SVGAnimatedInteger")}}

@@ -1,0 +1,19 @@
+# RTCTransportStats: localCertificateId property
+
+{{APIRef("WebRTC")}}
+
+The **`localCertificateId`** property of the {{domxref("RTCTransportStats")}} dictionary is a string that indicates the id of the local certificate used by this {{domxref("RTCIceTransport")}}.
+
+It is only present for DTLS transports, and after DTLS has been negotiated.
+
+## Value
+
+A string that containing the id of the local certificate used by this transport.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

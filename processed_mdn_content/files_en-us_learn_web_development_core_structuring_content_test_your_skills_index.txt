@@ -1,0 +1,11 @@
+# Test your skills: Structuring content with HTML
+
+This page lists HTML tests you can try so you can verify you've understood the content in this module.
+
+## Test your HTML skills by topic
+
+{{SubpagesWithSummaries}}
+
+## See also
+
+- [Structuring content with HTML](/en-US/docs/Learn_web_development/Core/Structuring_content)

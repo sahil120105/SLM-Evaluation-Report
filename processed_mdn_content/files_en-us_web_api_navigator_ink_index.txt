@@ -1,0 +1,28 @@
+# Navigator: ink property
+
+{{SeeCompatTable}}{{APIRef("Ink API")}}
+
+The **`ink`** read-only property of the {{domxref("Navigator")}} interface returns an {{domxref("Ink")}} object for the current document, providing access to [Ink API](/en-US/docs/Web/API/Ink_API) functionality.
+
+## Value
+
+An {{domxref('Ink')}} object.
+
+## Example
+
+```js
+async function inkInit() {
+  const ink = navigator.ink;
+  let presenter = await ink.requestPresenter({ presentationArea: canvas });
+
+  // …
+}
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

@@ -1,0 +1,19 @@
+# RTCRtpReceiver: track property
+
+{{APIRef("WebRTC API")}}
+
+The **`track`** read-only property of the
+{{domxref("RTCRtpReceiver")}} interface returns the {{domxref("MediaStreamTrack")}}
+associated with the current {{domxref("RTCRtpReceiver")}} instance.
+
+## Value
+
+A {{domxref("MediaStreamTrack")}} instance.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

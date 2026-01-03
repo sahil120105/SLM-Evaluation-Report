@@ -1,0 +1,33 @@
+# Sensor: stop() method
+
+{{securecontext_header}}{{APIRef("Sensor API")}}
+
+The **`stop()`** method of the {{domxref("Sensor")}} interface deactivates the current sensor.
+
+## Syntax
+
+```js-nolint
+stop()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+None ({{jsxref("undefined")}}).
+
+## Examples
+
+```js
+// TBD
+```
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

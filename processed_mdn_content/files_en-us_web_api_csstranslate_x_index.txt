@@ -1,0 +1,23 @@
+# CSSTranslate: x property
+
+{{APIRef("CSS Typed OM")}}
+
+The **`x`** property of the
+{{domxref("CSSTranslate")}} interface gets and sets the abscissa or x-axis of the
+translating vector.
+
+## Value
+
+A {{cssxref('length-percentage')}}
+
+## Examples
+
+To Do
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

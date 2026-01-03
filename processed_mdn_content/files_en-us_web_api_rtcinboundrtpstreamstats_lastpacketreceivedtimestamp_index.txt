@@ -1,0 +1,21 @@
+# RTCInboundRtpStreamStats: lastPacketReceivedTimestamp property
+
+{{APIRef("WebRTC")}}
+
+The **`lastPacketReceivedTimestamp`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates the time at which the most recently received packet arrived from this source.
+
+## Value
+
+A {{domxref("DOMHighResTimeStamp")}} which specifies the time at which the most recently received packet arrived on this RTP stream.
+
+> [!NOTE]
+> This value differs from the {{domxref("RTCInboundRtpStreamStats.timestamp", "timestamp")}},
+> which represents the time at which the statistics object was created.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

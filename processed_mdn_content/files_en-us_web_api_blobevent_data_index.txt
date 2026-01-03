@@ -1,0 +1,21 @@
+# BlobEvent: data property
+
+{{APIRef("MediaStream Recording")}}
+
+The **`data`** read-only property of the {{domxref("BlobEvent")}} interface represents a {{domxref("Blob")}} associated with the event.
+
+## Value
+
+A {{domxref("Blob")}} object.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
+
+## See also
+
+- The {{domxref("BlobEvent")}} interface it belongs to.

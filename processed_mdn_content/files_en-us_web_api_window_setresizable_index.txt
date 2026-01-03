@@ -1,0 +1,27 @@
+# Window: setResizable() method
+
+{{APIRef("HTML DOM")}} {{deprecated_header}}{{non-standard_header}}
+
+This method does nothing; it is a no-op. It is solely kept for compatibility with Netscape 4.x.
+
+## Syntax
+
+```js-nolint
+setResizable()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+None ({{jsxref("undefined")}}).
+
+## Specifications
+
+Not part of any current specifications.
+
+## Browser compatibility
+
+{{Compat}}

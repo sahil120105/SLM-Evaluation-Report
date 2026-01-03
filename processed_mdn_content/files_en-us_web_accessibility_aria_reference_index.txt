@@ -1,0 +1,5 @@
+# ARIA reference
+
+This page lists reference documentation for Accessible Rich Internet Applications (ARIA).
+
+{{SubPagesWithSummaries}}

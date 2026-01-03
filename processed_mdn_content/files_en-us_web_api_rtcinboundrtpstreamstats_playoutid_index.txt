@@ -1,0 +1,20 @@
+# RTCInboundRtpStreamStats: playoutId property
+
+{{APIRef("WebRTC")}}{{SeeCompatTable}}
+
+The **`playoutId`** property of the {{domxref("RTCInboundRtpStreamStats")}} dictionary indicates the {{domxref("RTCAudioPlayoutStats.id", "id")}} of the {{domxref("RTCAudioPlayoutStats")}} object that corresponds to this stream.
+
+> [!NOTE]
+> The value is undefined for video streams.
+
+## Value
+
+A string.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

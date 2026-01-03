@@ -1,0 +1,28 @@
+# DocumentFragment: DocumentFragment() constructor
+
+{{ApiRef("DOM")}}
+
+The **`DocumentFragment()`** constructor returns a new, empty
+{{domxref("DocumentFragment")}} object.
+
+## Syntax
+
+```js-nolint
+new DocumentFragment()
+```
+
+### Parameters
+
+None.
+
+### Return value
+
+A new {{domxref("DocumentFragment")}} object.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

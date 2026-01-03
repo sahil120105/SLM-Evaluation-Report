@@ -1,0 +1,17 @@
+# Client: id property
+
+{{APIRef("Service Workers API")}}{{AvailableInWorkers("service")}}
+
+The **`id`** read-only property of the {{domxref("Client")}} interface returns the universally unique identifier of the {{domxref("Client")}} object.
+
+## Value
+
+A string uniquely identifying the object.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

@@ -1,0 +1,17 @@
+# RTCTransportStats: selectedCandidatePairId property
+
+{{APIRef("WebRTC")}}
+
+The **`selectedCandidatePairId`** property of the {{domxref("RTCTransportStats")}} dictionary represents the unique identifier for the candidate pair stats associated with this transport.
+
+## Value
+
+A string that contains the unique identifier for the object that was inspected to produce the {{domxref("RTCIceCandidatePairStats")}} associated with this transport.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}

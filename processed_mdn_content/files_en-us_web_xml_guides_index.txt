@@ -1,0 +1,5 @@
+# XML Guides
+
+This page lists guides for XML.
+
+{{SubPagesWithSummaries}}

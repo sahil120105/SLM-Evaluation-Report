@@ -1,0 +1,19 @@
+# HTMLIFrameElement: csp property
+
+{{APIRef("HTML DOM")}}{{SeeCompatTable}}
+
+The **`csp`** property of the {{domxref("HTMLIFrameElement")}}
+interface specifies the [Content Security Policy](/en-US/docs/Web/HTTP/Guides/CSP) that an
+embedded document must agree to enforce upon itself.
+
+## Value
+
+A content security policy.
+
+## Specifications
+
+{{Specifications}}
+
+## Browser compatibility
+
+{{Compat}}
