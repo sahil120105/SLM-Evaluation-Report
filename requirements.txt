@@ -3,3 +3,7 @@ pandas
 openai 
 sentence-transformers 
 rouge-score
+textstat
+matplotlib
+seaborn
+tiktoken
